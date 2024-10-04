@@ -7,7 +7,6 @@ spec:
     app: vprodb
   type: ClusterIP
   ports:
-  - name: mysqldb-cluster
-    port:  3306
+  - port:  3306
     targetPort: vprodb-port
     protocol: TCP
