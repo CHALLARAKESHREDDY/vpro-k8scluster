@@ -30,7 +30,7 @@ spec:
               name: vpro-secret
               key: mysqldbpass
       nodeSelector:
-        zone: us-west-1a
+        zone: use-weat-1a
       volumes:
       - name: mysql-db-volume
         awsElasticBlockStore:
